@@ -249,4 +249,42 @@
 
   </section>
 
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h2>Helyszín</h2>
+          <h3>Frankel Leó út 20</h3>
+          <h2>Nyitvatartás</h2>
+          <h3>Hétfő-Szombat 11.30-24.00</h3>
+          <h3>Vasárnap zárva</h3>
+          <h3>Konyha 23.00-ig</h3>
+          <h2>Elérhetőségeink</h2>
+          <h3>06309367747</h3>
+          <h3>info@frankokitchen.hu</h3>
+
+
+        </div>
+        <div class="column">
+          <div id="map" style="width:100%;height:500px"></div>
+        </div>
+      </div>
+
+      </div>
+  </section>
+
 </body>
+
+<script>
+// Initialize google maps
+function myMap() {
+  var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 12};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
