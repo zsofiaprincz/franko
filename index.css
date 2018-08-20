@@ -1,0 +1,119 @@
+body {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  letter-spacing:2px;
+}
+
+.Navbar {
+  background-color: #000000;
+  height: 100px;
+  display: flex;
+  font-family: 'Cinzel';
+  overflow: hidden;
+
+}
+.Navbar__Link {
+  padding-top: 40px;
+  padding-right: 30px;
+  color: rgb(209, 178, 8);
+}
+.Navbar__Items {
+  display: flex;
+}
+.Navbar__Items--right {
+  margin-left:auto;
+}
+.Navbar__Link-toggle {
+  display: none;
+}
+
+.Navbar__Link-brand img{
+  padding-left: 20px;
+  height: 100px;
+
+}
+
+.Navbar__Link a {
+  text-decoration: none;
+  color: rgb(209, 178, 8);
+}
+/*.Navbar__Link-brand{
+  padding-left: -16px;
+  padding-top: -16px;
+}*/
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+.Navbar__Items {
+    display:none;
+    padding-right: 15px;
+  }
+.Navbar__Items--right {
+    margin-left:0;
+  }
+.Navbar__ToggleShow {
+    display: flex;
+  }
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   }
+}
+
+.imageHolder{
+  height: 80vh;
+  background:
+  url(1.jpeg) center no-repeat;
+  background-size: cover;
+}
+
+#us{
+  margin: 0 auto;
+  max-width: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Cinzel';
+}
+
+
+.menu {
+
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1em;
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  letter-spacing:2px;
+
+}
+
+.menu__section td + td {
+  padding-left: 1em;
+  padding-bottom: 15px;
+
+}
+
+.menu__header * + * {
+  margin: 0.4em 0;
+}
+
+.menuTitle {
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: rgb(209, 178, 8);
+  width: 100%;
+  padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.menu__item--price{
+  vertical-align:bottom;
+
+}
