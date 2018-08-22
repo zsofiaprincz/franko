@@ -68,12 +68,17 @@ body {
 }
 
 .imageHolder{
-  height: 80vh;
+  height: 100vh;
   background:
   url(1.jpeg) center no-repeat;
-  background-size: cover;
-  padding-top: 280px;
+  /* background-size: cover; */
+  /* padding-top: 280px; */
+  /* background-size:contain; */
+  background-position:center;
+
 }
+
+
 
 #us{
   margin: 0 auto;
@@ -126,8 +131,9 @@ padding-top: 20px;
 
 }
 
-.menu p{
-  font-size: 15px;
+.menu h5{
+  font-size: 20px;
+  font-weight: 100;
 
 }
 .container {
