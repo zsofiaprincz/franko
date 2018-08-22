@@ -97,10 +97,14 @@ body {
 
 }
 
-.menu__section td + td {
+.menu__section td  + td{
   padding-left: 1em;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 
+}
+
+.menu__section td{
+  padding-bottom: 15px;
 }
 
 .menu__header * + * {
