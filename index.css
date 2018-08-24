@@ -1,5 +1,5 @@
 body {
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
   font-size: 20px;
   letter-spacing:2px;
 }
@@ -8,7 +8,7 @@ body {
   background-color: #000000;
   height: 100px;
   display: flex;
-  font-family: "Cinzel";
+  font-family: 'Cinzel', serif;
   position: fixed;
   width: 100%;
   top:0;
@@ -85,8 +85,8 @@ body {
   max-width: 1000px;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-family: "Cinzel";
-  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
 }
 
 
@@ -96,7 +96,7 @@ body {
   max-width: 600px;
   padding: 1em;
   text-transform: uppercase;
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
   font-size: 20px;
   letter-spacing:2px;
 
@@ -154,7 +154,7 @@ padding-top: 20px;
 .left{
   flex: 1;
   max-width: 400px;
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
   font-size: 20px;
   letter-spacing:2px;
   font-weight: lighter;
